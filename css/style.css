@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Rubik+Mono+One&family=Titan+One&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondo-header{
+    background-color: white;
+}
+.logo{
+    width: 100px;
+}
+
+.barra{
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.link{
+    font-size: 20px;
+    color: #39875B;
+}
+.link:hover {
+    background-color: #39875B;
+    color: #fafafa;
+}
+
+.logo-ir {
+    width: 65px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition-duration: 2s;
+}
+.titulo{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    color: #39875B;
+}
+.subtitulo{
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    color: #39875B;
+}
+.ubicacion{
+    border-radius: 10px;
+}
+.footer{
+    background-color:#D4F7E3;
+}
