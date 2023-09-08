@@ -4,6 +4,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+h3{
+    font-family: 'Titan One', cursive;
+    color: #39875B;
+}
 
 .fondo-header{
     background-color: white;
@@ -48,4 +52,22 @@ body{
 }
 .footer{
     background-color:#D4F7E3;
+}
+.comentario{
+    color: #39875B;
+    font-weight: bold;
+    font-size: 20px;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+}
+.servicios li{
+    margin: 10px;
+    list-style: none;
+    color: #39875B;
+    font-weight: bold;
+}
+.img-producto{
+    object-fit: contain;
 }
