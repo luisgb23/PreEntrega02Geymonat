@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 h3{
     font-family: 'Titan One', cursive;
     color: #39875B;
@@ -12,6 +13,7 @@ h3{
 .fondo-header{
     background-color: white;
 }
+
 .logo{
     width: 100px;
 }
@@ -21,10 +23,18 @@ h3{
     justify-content: flex-end;
 } 
 
+.titulo-carousel{
+    position: absolute;
+    right: 15%;
+    top: 125px;
+    left: 15%;
+}
+
 .link{
     font-size: 20px;
     color: #39875B;
 }
+
 .link:hover {
     background-color: #39875B;
     color: #fafafa;
@@ -37,37 +47,59 @@ h3{
     right: 20px;
     transition-duration: 2s;
 }
+
 .titulo{
     font-family: 'Titan One', cursive;
     text-align: center;
     color: #39875B;
 }
+
 .subtitulo{
     font-family: 'Titan One', cursive;
     text-align: center;
     color: #39875B;
 }
+
 .ubicacion{
     border-radius: 10px;
 }
+
 .footer{
     background-color:#D4F7E3;
 }
+
 .comentario{
     color: #39875B;
     font-weight: bold;
     font-size: 20px;
 }
+
 .servicios{
     display: flex;
     justify-content: center;
 }
+
 .servicios li{
     margin: 10px;
     list-style: none;
     color: #39875B;
     font-weight: bold;
 }
+
 .img-producto{
     object-fit: contain;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.redes i{
+    margin: 5px;
+}
+
+.redes a{
+    color: black;
 }
